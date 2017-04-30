@@ -2,7 +2,7 @@
 
 ob_start();
 
-$API_KEY = 'توکن';
+$API_KEY = '358678887:AAEeYwPlGYJV7iAMPZPPwyYoDeMJzHyJ0dk';
 ##------------------------------##
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
@@ -57,7 +57,7 @@ $ali = file_get_contents("data/$from_id/ali.txt");
 $chatid = $update->callback_query->message->chat->id;
 $data = $update->callback_query->data;
 $message_id = $update->callback_query->message->message_id;
-$ADMIN = ایدی عددی;
+$ADMIN = 97860660;
 $fi = file_get_contents("data/$from_id/fi.txt");
 //====================ᵗᶦᵏᵃᵖᵖ======================//
 if($text == '/start'){
